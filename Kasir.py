@@ -13,12 +13,9 @@ elif boneka <= 24:
 elif boneka <= 50:
     print("\nHarga Perboneka Rp18.000\n")
     harga = 18000
-elif boneka > 50:
+else:
     print("\nHarga Perboneka Rp17.000\n")
     harga = 17000
-else:
-    print("\nError\n")
-
 bayar = boneka * harga
 
 print("Total Bayar = Rp",bayar)
